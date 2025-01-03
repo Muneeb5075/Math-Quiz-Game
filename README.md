@@ -19,4 +19,3 @@ HTML for structure
 CSS for styling, including animations and gradients
 JavaScript for game logic and interactivity
 
-This project is a great example of combining basic web technologies to create an engaging user experience. Feel free to clone, fork, or contribute to enhance the game further!
