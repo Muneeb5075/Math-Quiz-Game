@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mathquiz.css">
+</head>
+<body>
+    <div class="Head">
+        <div id="htop">
+            <h1 class="Platform">Math Quiz</h1>
+        </div>
+        <div class="hbtm">
+            <div id="Timerscore">
+                <div id="Showscore">
+                    <h3> Score </h3>
+                    <p id="num" style="display: flex; align-items: center;">0</p>
+                </div>
+                <div id="Showscore">
+                    <h3> Timer </h3>
+                    <p id="num1" style="display: flex; align-items: center;">60</p>
+                </div>
+            </div>
+            <div>
+                <div id="Operation" style="text-align: center;"> </div>
+                <div style="text-align: center; margin-top: 1rem;">
+                    <input  id="Answer" type="text" placeholder="Enter Answer">
+                </div>
+                <div id="Submit" style="text-align: center; margin-top: 1rem; display: flex; justify-content: center;">
+                    <button id="submitBtn">Submit</button>
+                    <button id="restartBtn" style="display: none;">Restart</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="Math.js"></script>
+</body>
+</html>
